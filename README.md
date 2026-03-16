@@ -1,0 +1,1 @@
+# shopify_schnappix_ella-7-1-0-theme-source
