@@ -1,0 +1,6 @@
+# Local Shopify CLI config
+.shopify
+
+# OS
+.DS_Store
+Thumbs.db
