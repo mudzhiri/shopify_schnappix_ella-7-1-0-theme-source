@@ -820,9 +820,22 @@
                 "padding_left": 0
               },
               "blocks": {
+                "card_product_variant_flex_Ep4eUi": {
+                  "type": "_card-product-variant-flex",
+                  "name": "t:names.product_variant",
+                  "settings": {
+                    "product": "{{ closest.product }}",
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "card_product_vendor_flex_Y9XPVi": {
                   "type": "_card-product-vendor-flex",
                   "name": "Product vendor",
+                  "disabled": true,
                   "settings": {
                     "product": "{{ closest.product }}",
                     "width": "fit-content",
@@ -902,6 +915,7 @@
                 }
               },
               "block_order": [
+                "card_product_variant_flex_Ep4eUi",
                 "card_product_vendor_flex_Y9XPVi",
                 "card_product_title_flex_DiBw9p",
                 "card_product_price_flex_YQLH8i",
@@ -923,10 +937,10 @@
         "columns_gap_vertical": 30,
         "padding-inline-start": 0,
         "padding-inline-end": 0,
-        "pagination_type": "pagination",
+        "pagination_type": "infinite",
         "padding-block-start-pagination": 50,
         "padding-block-end-pagination": 0,
-        "padding_top": 36,
+        "padding_top": 60,
         "padding_bottom": 60
       }
     },

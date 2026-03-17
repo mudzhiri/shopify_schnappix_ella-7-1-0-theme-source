@@ -344,13 +344,13 @@
             "height": "fit",
             "media_type_1": "image",
             "inherit_color_scheme": true,
-            "scheme_background": "#FFFFFF",
+            "scheme_background": "#ffffff",
             "scheme_background_gradient": "",
             "scheme_foreground_heading": "#000000",
             "scheme_foreground": "#000000",
-            "scheme_primary": "#000F9F",
+            "scheme_primary": "#000f9f",
             "scheme_primary_hover": "#000000",
-            "scheme_border": "#E6E6E6",
+            "scheme_border": "#e6e6e6",
             "scheme_shadow": "#000000"
           },
           "blocks": {
@@ -632,7 +632,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "link": "",
+                "link": "shopify://collections/drinks",
                 "open_in_new_tab": false,
                 "hide_on_tablet": false,
                 "hide_on_mobile": false,
@@ -752,7 +752,7 @@
                       "name": "t:names.button",
                       "settings": {
                         "label": "Shop Coats",
-                        "link": "",
+                        "link": "shopify://collections/all",
                         "open_in_new_tab": false,
                         "style_class": "button",
                         "button_style": "default",
@@ -809,7 +809,7 @@
               "type": "group",
               "name": "t:names.group",
               "settings": {
-                "link": "",
+                "link": "shopify://collections",
                 "open_in_new_tab": false,
                 "hide_on_tablet": false,
                 "hide_on_mobile": false,

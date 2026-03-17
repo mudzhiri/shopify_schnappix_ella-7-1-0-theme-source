@@ -87,7 +87,7 @@
     "enable_wishlist": true,
     "enable_quick_view": true,
     "enable_compare": true,
-    "quick_add_type": "text",
+    "quick_add_type": "icon",
     "card_color_scheme": "scheme-2",
     "show_product_marquee": true,
     "product_marquee_background_color": "#001E4A",
