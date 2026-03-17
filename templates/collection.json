@@ -245,7 +245,7 @@
       "type": "breadcrumb",
       "name": "Breadcrumb",
       "settings": {
-        "separator": "caret",
+        "separator": "slash",
         "horizontal_alignment": "space-between",
         "gap": 12,
         "font_size": "1.2rem",

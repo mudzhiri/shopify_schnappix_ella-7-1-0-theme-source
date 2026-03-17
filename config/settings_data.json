@@ -1,6 +1,15 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "",
+    "logo": "shopify://shop_images/schnappix_white_b2a3472d-7279-4ae6-8b21-538d765043c3.svg",
     "logo_inverse": "",
     "sale_badge_color": "#ffffff",
     "sale_badge_background": "#d62828",
@@ -234,7 +243,7 @@
           "arrow_color_hover": "#333333",
           "arrow_background_hover": "#ffffff",
           "pagination_color": "#000000",
-          "pagination_active_color": "#C6C6C6"
+          "pagination_active_color": "#c6c6c6"
         }
       },
       "scheme-2": {
@@ -429,7 +438,7 @@
           "arrow_color_hover": "#333333",
           "arrow_background_hover": "#ffffff",
           "pagination_color": "#000000",
-          "pagination_active_color": "#C6C6C6"
+          "pagination_active_color": "#c6c6c6"
         }
       },
       "scheme-7": {
@@ -585,7 +594,7 @@
           "arrow_color_hover": "#333333",
           "arrow_background_hover": "#ffffff",
           "pagination_color": "#000000",
-          "pagination_active_color": "#C6C6C6"
+          "pagination_active_color": "#c6c6c6"
         }
       },
       "scheme-11": {
@@ -624,7 +633,7 @@
           "arrow_color_hover": "#333333",
           "arrow_background_hover": "#ffffff",
           "pagination_color": "#000000",
-          "pagination_active_color": "#C6C6C6"
+          "pagination_active_color": "#c6c6c6"
         }
       }
     }
@@ -8286,7 +8295,7 @@
       "type_text_transform_h1": "uppercase",
       "type_font_h2": "heading",
       "type_size_h2": "6.4rem",
-      "type_line_height_h2": "display-loose", 
+      "type_line_height_h2": "display-loose",
       "type_text_transform_h2": "uppercase",
       "type_font_h3": "heading",
       "type_text_transform_h3": "uppercase",
@@ -8467,18 +8476,18 @@
       "brand_description": "<p></p>",
       "brand_image_width": 100,
       "sections": {
-      "main-password-header": {
-        "type": "main-password-header",
-        "settings": {
-          "color_scheme": "scheme-1"
+        "main-password-header": {
+          "type": "main-password-header",
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
+        },
+        "main-password-footer": {
+          "type": "main-password-footer",
+          "settings": {
+            "color_scheme": "scheme-1"
+          }
         }
-      },
-      "main-password-footer": {
-        "type": "main-password-footer",
-        "settings": {
-          "color_scheme": "scheme-1"
-        }
-      }
       },
       "content_for_index": [],
       "color_schemes": {
