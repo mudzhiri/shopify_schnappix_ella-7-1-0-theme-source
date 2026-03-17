@@ -386,6 +386,7 @@
                 "text_U9xRzP": {
                   "type": "text",
                   "name": "Text",
+                  "disabled": true,
                   "settings": {
                     "text": "<p>(202) 387-9338</p>",
                     "collection_description_only": false,
