@@ -22,6 +22,7 @@
             "container": "page-width page-width--full",
             "height": "fit",
             "media_type_1": "video",
+            "video_1": "shopify://files/videos/Cinematic_Neon_Logo_Animation_Generated.mp4",
             "inherit_color_scheme": true,
             "scheme_background": "#ffffff",
             "scheme_background_gradient": "",
@@ -343,6 +344,10 @@
             "container": "page-width page-width--full",
             "height": "fit",
             "media_type_1": "image",
+            "image_1": "shopify://shop_images/no-background-image-red-bull-blue-edition-blaubeere.png",
+            "image_mb_1": "shopify://shop_images/no-background-image-red-bull-blue-edition-blaubeere.png",
+            "image_2": "shopify://shop_images/coming_soon.svg",
+            "image_mb_2": "shopify://shop_images/coming_soon.svg",
             "inherit_color_scheme": true,
             "scheme_background": "#ffffff",
             "scheme_background_gradient": "",
@@ -357,6 +362,7 @@
             "scrolling_text_NBQEfD": {
               "type": "_scrolling-text",
               "name": "t:names.parallax_scroll_lists",
+              "disabled": true,
               "settings": {
                 "scroll_speed": 0.5,
                 "heading": "Parallax Scroll Effect",
@@ -368,18 +374,20 @@
                 "item_text_color": "#333333",
                 "item_border_color": "#e0e0e0",
                 "item_text_size": 14,
-                "item_border_radius": 8
+                "item_border_radius": 30
               },
               "blocks": {
                 "scrolling_row_gywVae": {
                   "type": "_scrolling-row",
                   "name": "t:names.scrolling_row",
+                  "disabled": true,
                   "settings": {
-                    "scroll_direction": "right"
+                    "scroll_direction": "left"
                   },
                   "blocks": {
                     "scrolling_item_qPKXDQ": {
                       "type": "_scrolling-item",
+                      "disabled": true,
                       "settings": {
                         "text": "testsaa"
                       },
@@ -387,6 +395,7 @@
                     },
                     "scrolling_item_GqJ8zm": {
                       "type": "_scrolling-item",
+                      "disabled": true,
                       "settings": {
                         "text": "Scrolling Item"
                       },
@@ -395,7 +404,7 @@
                     "scrolling_item_qV9hDK": {
                       "type": "_scrolling-item",
                       "settings": {
-                        "text": "Scrolling Item"
+                        "text": "test"
                       },
                       "blocks": {}
                     },
@@ -478,7 +487,7 @@
         "m_link_7": "",
         "m_link_8": "",
         "m_link_9": "",
-        "slide_direction": "horizontal",
+        "slide_direction": "vertical",
         "autoplay": false,
         "autoplay_speed": 5,
         "loop": false,
@@ -504,7 +513,7 @@
         "right_banner_link_3": "",
         "right_banner_link_4": "",
         "open_in_new_tab": false,
-        "image_behavior": "none",
+        "image_behavior": "parallax",
         "color_scheme": "scheme-9",
         "color_scheme_mobile": "scheme-9",
         "padding-block-start": 0,
@@ -2220,6 +2229,7 @@
               "type": "_lookbook-item",
               "name": "Lookbook banner",
               "settings": {
+                "background_image": "shopify://shop_images/no-background-image-red-bull-blue-edition-blaubeere.png",
                 "background_image_position": "cover",
                 "link": "",
                 "hide_on_mobile": false,
@@ -2287,6 +2297,88 @@
                   },
                   "blocks": {}
                 },
+                "text_atMtWF": {
+                  "type": "text",
+                  "name": "t:names.text",
+                  "settings": {
+                    "text": "<p>We make things that work better and last longer. Our products solve real problems with clean design and honest materials.</p>",
+                    "collection_description_only": false,
+                    "collapse_text": false,
+                    "typing_text": false,
+                    "primary_text": "Welcome to our store!",
+                    "secondary_text": "Exclusive offers just for you.",
+                    "third_text": "Shop now and enjoy deals!",
+                    "highlight_text": false,
+                    "highlight_text_content": "",
+                    "highlight_text_type": "text",
+                    "underline_width": 100,
+                    "underline_height": 18,
+                    "underline_offset": 20,
+                    "highlight_text_color": "#000000",
+                    "highlight_underline_color": "#000000",
+                    "spacing_text": false,
+                    "spacing_text_content": "",
+                    "spacing_text_left": 0,
+                    "spacing_text_right": 0,
+                    "stroke_text": false,
+                    "stroke_text_content": "",
+                    "sticky_text": false,
+                    "sticky_text_color": "#ffffff",
+                    "mix_blend_mode": false,
+                    "text_box_trim": false,
+                    "enable_rotation": false,
+                    "rotate": 0,
+                    "width": "fit-content",
+                    "unit": "percent",
+                    "custom_width": 100,
+                    "custom_width_pixel": 500,
+                    "inherit_text_alignment": true,
+                    "justify_alignment": false,
+                    "alignment": "left",
+                    "width_tablet": "fit-content",
+                    "unit_tablet": "percent",
+                    "custom_width_tablet": 100,
+                    "custom_width_tablet_pixel": 100,
+                    "inherit_text_alignment_tablet": true,
+                    "justify_alignment_tablet": false,
+                    "alignment_tablet": "left",
+                    "width_mobile": "fit-content",
+                    "unit_mobile": "percent",
+                    "custom_width_mobile": 100,
+                    "custom_width_mobile_pixel": 100,
+                    "inherit_text_alignment_mobile": true,
+                    "justify_alignment_mobile": false,
+                    "alignment_mobile": "left",
+                    "type_preset": "rte",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1.6rem",
+                    "font_weight": "default",
+                    "line_height": "normal",
+                    "letter_spacing": "normal",
+                    "case": "none",
+                    "wrap": "pretty",
+                    "color": "var(--color-foreground)",
+                    "background": false,
+                    "background_color": "#00000026",
+                    "background_gradient": "",
+                    "enable_border": false,
+                    "enable_border_bottom": false,
+                    "border": "none",
+                    "border_width": 0,
+                    "border_width_type": "100%",
+                    "border_custom_width": 100,
+                    "border_radius": 0,
+                    "text_effect": "none",
+                    "heading_only": false,
+                    "heading_effect": "none",
+                    "animation_repeat": false,
+                    "padding-block-start": 0,
+                    "padding-block-end": 0,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                },
                 "lookbook_dot_iXhjf9": {
                   "type": "_lookbook-dot",
                   "name": "Lookbook dot",
@@ -2332,6 +2424,7 @@
               },
               "block_order": [
                 "lookbook_dot_Cmn3UX",
+                "text_atMtWF",
                 "lookbook_dot_iXhjf9",
                 "lookbook_dot_3P8U8W"
               ]
@@ -2370,7 +2463,8 @@
                     "product_list": [
                       "draped-mock-neck-tee",
                       "relaxed-utility-wide-leg-pants",
-                      "cinched-waist-knit-sweater"
+                      "cinched-waist-knit-sweater",
+                      "coca-cola"
                     ],
                     "gap": 0,
                     "loop": false,
