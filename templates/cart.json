@@ -408,6 +408,7 @@
           "blocks": {
             "collection_title_44Tb9H": {
               "type": "_collection_title",
+              "disabled": true,
               "settings": {
                 "text": "<h2>Collection title</h2>",
                 "width": "100%",
@@ -651,7 +652,7 @@
       },
       "name": "t:names.product_list_carousel",
       "settings": {
-        "collection": "",
+        "collection": "drinks",
         "layout_type": "carousel",
         "widget_layout": "default",
         "products_to_show": 8,
