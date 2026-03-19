@@ -126,11 +126,39 @@
           "static": true,
           "settings": {},
           "blocks": {
+            "menu_tab_list_pt8caq": {
+              "type": "_menu-tab-list",
+              "name": "t:names.menu_item",
+              "settings": {
+                "tab_for": "test",
+                "divider": true,
+                "scheme_border": "#E6E6E6"
+              },
+              "blocks": {
+                "menu_tab_item_bHKbXJ": {
+                  "type": "_menu-tab-item",
+                  "name": "t:names.menu_item",
+                  "settings": {
+                    "title": "test",
+                    "link": "shopify://collections",
+                    "sub_menu": "startseite",
+                    "image_type_level_1": "image",
+                    "svg_upload_level_1": "",
+                    "image_level_1": "shopify://shop_images/Untitled_design.svg",
+                    "banner_level_2": "shopify://shop_images/vending_snacks.svg"
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "menu_tab_item_bHKbXJ"
+              ]
+            },
             "menu_tab_list_FpTJaT": {
               "type": "_menu-tab-list",
               "name": "Menu tab list",
               "settings": {
-                "tab_for": "Menu",
+                "tab_for": "SCHNAPPIX",
                 "divider": true,
                 "scheme_border": "#e6e6e6"
               },
@@ -141,7 +169,7 @@
                   "settings": {
                     "title": "Home",
                     "link": "#",
-                    "sub_menu": "",
+                    "sub_menu": "startseite",
                     "image_type_level_1": "image",
                     "svg_upload_level_1": ""
                   },
@@ -323,6 +351,7 @@
             }
           },
           "block_order": [
+            "menu_tab_list_pt8caq",
             "menu_tab_list_FpTJaT",
             "menu_tab_list_JdVVGD"
           ]
@@ -349,16 +378,16 @@
         "vertical_menu_MyAyjy": {
           "type": "vertical_menu",
           "settings": {
-            "vertical_menu": "main-menu",
+            "vertical_menu": "startseite",
             "vertical_menu_style": "style_1",
-            "vertical_menu_title": "Categories",
+            "vertical_menu_title": "SHOP",
             "inherit_color_scheme": true,
             "scheme_background": "#000000",
             "scheme_background_gradient": "",
             "scheme_foreground": "#ffffff",
             "button_divider": true,
-            "button_width": "fit",
-            "button_border_radius": 0,
+            "button_width": "large",
+            "button_border_radius": 36,
             "color_scheme_vertical_menu": "scheme-1"
           }
         },
@@ -511,7 +540,7 @@
         "gap": 12,
         "align_items": "center",
         "logo_width": 150,
-        "logo_width_mobile": 50,
+        "logo_width_mobile": 130,
         "logo_spacing_left": 20,
         "logo_spacing_right": 20,
         "logo_position": "center",
