@@ -525,7 +525,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_XCH4ay", "video_9We4kB"]
+              "block_order": [
+                "text_XCH4ay",
+                "video_9We4kB"
+              ]
             },
             "group_WXyAyd": {
               "type": "group",
@@ -659,7 +662,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["image_8RV4z8", "image_XjFTDD"]
+              "block_order": [
+                "image_8RV4z8",
+                "image_XjFTDD"
+              ]
             },
             "group_V4W7Mr": {
               "type": "group",
@@ -793,7 +799,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["image_iqbfHB", "image_me4mLW"]
+              "block_order": [
+                "image_iqbfHB",
+                "image_me4mLW"
+              ]
             },
             "text_Dpq3AY": {
               "type": "text",
@@ -1045,7 +1054,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_8giqaD", "text_EXCdiT"]
+              "block_order": [
+                "text_8giqaD",
+                "text_EXCdiT"
+              ]
             },
             "group_33TXPw": {
               "type": "group",
@@ -1235,7 +1247,10 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_7FJP4G", "text_L33zNY"]
+              "block_order": [
+                "text_7FJP4G",
+                "text_L33zNY"
+              ]
             },
             "text_WAMaKE": {
               "type": "text",
@@ -1344,7 +1359,10 @@
                     },
                     "spacer_qKrERD": {
                       "type": "spacer",
-                      "settings": { "spacer_height": 6, "spacer_width": 0 },
+                      "settings": {
+                        "spacer_height": 6,
+                        "spacer_width": 0
+                      },
                       "blocks": {}
                     },
                     "card_product_vendor_flex_C3whwc": {
@@ -1500,7 +1518,9 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["text_h6P46m"]
+              "block_order": [
+                "text_h6P46m"
+              ]
             },
             "social_icons_LFtxY9": {
               "type": "social-icons",
@@ -1539,5 +1559,7 @@
       }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }

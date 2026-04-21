@@ -253,13 +253,13 @@
             "divider_spacing_bottom": 20,
             "divider_color": "#000000",
             "inherit_color_scheme": false,
-            "scheme_background": "#ffffff",
+            "scheme_background": "#111111",
             "scheme_background_gradient": "",
-            "scheme_foreground_heading": "#000000",
-            "scheme_foreground": "#000000",
-            "scheme_primary": "#000f9f",
-            "scheme_primary_hover": "#000000",
-            "scheme_border": "#e6e6e6",
+            "scheme_foreground_heading": "#ffffff",
+            "scheme_foreground": "#d4d4d4",
+            "scheme_primary": "#ff6a01",
+            "scheme_primary_hover": "#ff6a01",
+            "scheme_border": "#2a2a2a",
             "scheme_shadow": "#000000",
             "enable_filtering": true,
             "filter_gap_vertical": 20,
@@ -877,7 +877,9 @@
           "blocks": {}
         }
       },
-      "block_order": ["divider_P9KCbQ"],
+      "block_order": [
+        "divider_P9KCbQ"
+      ],
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -977,7 +979,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["collection_title_tXzTjf"]
+          "block_order": [
+            "collection_title_tXzTjf"
+          ]
         },
         "product-slide-item": {
           "type": "card-product-flex",
@@ -1029,7 +1033,10 @@
             },
             "spacer_WccWMn": {
               "type": "spacer",
-              "settings": { "spacer_height": 16, "spacer_width": 0 },
+              "settings": {
+                "spacer_height": 16,
+                "spacer_width": 0
+              },
               "blocks": {}
             },
             "card_product_information_jEdy9c": {
@@ -1084,7 +1091,10 @@
                 },
                 "spacer_XPEfwi": {
                   "type": "spacer",
-                  "settings": { "spacer_height": 2, "spacer_width": 0 },
+                  "settings": {
+                    "spacer_height": 2,
+                    "spacer_width": 0
+                  },
                   "blocks": {}
                 },
                 "card_product_title_flex_yLneBy": {
@@ -1113,7 +1123,10 @@
                 },
                 "spacer_WGf9zr": {
                   "type": "spacer",
-                  "settings": { "spacer_height": 2, "spacer_width": 0 },
+                  "settings": {
+                    "spacer_height": 2,
+                    "spacer_width": 0
+                  },
                   "blocks": {}
                 },
                 "card_product_price_flex_CyhraW": {
@@ -1137,7 +1150,10 @@
                 },
                 "spacer_cKCJfz": {
                   "type": "spacer",
-                  "settings": { "spacer_height": 16, "spacer_width": 0 },
+                  "settings": {
+                    "spacer_height": 16,
+                    "spacer_width": 0
+                  },
                   "blocks": {}
                 },
                 "card_product_variant_flex_z4m7cV": {

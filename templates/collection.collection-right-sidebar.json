@@ -144,7 +144,10 @@
           "blocks": {}
         }
       },
-      "block_order": ["text_QYCLHk", "text_Lw7jtn"],
+      "block_order": [
+        "text_QYCLHk",
+        "text_Lw7jtn"
+      ],
       "settings": {
         "content_stacked": true,
         "page_width": "page-width",
@@ -1225,16 +1228,27 @@
                       "blocks": {}
                     }
                   },
-                  "block_order": ["text_Ldhjr9", "text_JRYLEB", "button_i8rycM"]
+                  "block_order": [
+                    "text_Ldhjr9",
+                    "text_JRYLEB",
+                    "button_i8rycM"
+                  ]
                 }
               },
-              "block_order": ["group_x7dMgY"]
+              "block_order": [
+                "group_x7dMgY"
+              ]
             }
           },
-          "block_order": ["image_aJiyrY", "group_VehgyT"]
+          "block_order": [
+            "image_aJiyrY",
+            "group_VehgyT"
+          ]
         }
       },
-      "block_order": ["group_djz8TV"],
+      "block_order": [
+        "group_djz8TV"
+      ],
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -1287,7 +1301,9 @@
           "blocks": {}
         }
       },
-      "block_order": ["divider_hghRTW"],
+      "block_order": [
+        "divider_hghRTW"
+      ],
       "name": "t:names.custom_section",
       "settings": {
         "content_direction": "column",
@@ -1435,7 +1451,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["text_7h8QiL"]
+          "block_order": [
+            "text_7h8QiL"
+          ]
         },
         "product-slide-item": {
           "type": "card-product-flex",
@@ -1497,7 +1515,9 @@
                   "blocks": {}
                 }
               },
-              "block_order": ["card_product_group_button_iARFae"]
+              "block_order": [
+                "card_product_group_button_iARFae"
+              ]
             },
             "card_product_information_HcXEEH": {
               "type": "_card-product-information",

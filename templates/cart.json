@@ -73,12 +73,12 @@
             "cart_countdown_product": "game-cover-23",
             "countdown_time": 60,
             "inherit_color_scheme": false,
-            "scheme_background": "#fbf8e5",
+            "scheme_background": "#111111",
             "scheme_background_gradient": "",
-            "scheme_foreground_heading": "#000000",
-            "scheme_foreground": "#8b714a",
-            "scheme_primary": "#000f9f",
-            "scheme_primary_hover": "#000000",
+            "scheme_foreground_heading": "#ffffff",
+            "scheme_foreground": "#d4d4d4",
+            "scheme_primary": "#ff6a01",
+            "scheme_primary_hover": "#ff6a01",
             "margin-block-start": 0,
             "margin-block-end": 45,
             "margin-inline-start": 0,
@@ -86,7 +86,9 @@
             "padding-block-start": 7,
             "padding-block-end": 14,
             "padding-inline-start": 10,
-            "padding-inline-end": 10
+            "padding-inline-end": 10,
+            "scheme_border": "#2a2a2a",
+            "scheme_shadow": "#000000"
           },
           "blocks": {}
         },

@@ -117,7 +117,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["text_WMQMjN"]
+          "block_order": [
+            "text_WMQMjN"
+          ]
         },
         "static-blog-post-sidebar": {
           "type": "_blog-post-sidebar",
@@ -507,7 +509,9 @@
               "blocks": {}
             }
           },
-          "block_order": ["divider_wrzxr8"]
+          "block_order": [
+            "divider_wrzxr8"
+          ]
         }
       },
       "settings": {
@@ -529,5 +533,8 @@
       }
     }
   },
-  "order": ["breadcrumb_hBMNM9", "main"]
+  "order": [
+    "breadcrumb_hBMNM9",
+    "main"
+  ]
 }
