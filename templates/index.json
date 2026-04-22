@@ -9213,6 +9213,677 @@
         "padding-block-start": 24,
         "padding-block-end": 24
       }
+    },
+    "schnappix_standort_01": {
+      "type": "section",
+      "blocks": {
+        "text_standort_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>WO FINDEST DU SCHNAPPIX?</h2>",
+            "typing_text": false,
+            "width": "fill",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 800,
+            "inherit_text_alignment": false,
+            "alignment": "center",
+            "width_tablet": "fill",
+            "width_mobile": "fill",
+            "type_preset": "heading",
+            "font": "var(--font-body--family)",
+            "font_size": "2.4rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "uppercase",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "enable_border": false,
+            "enable_border_bottom": false,
+            "border": "none",
+            "border_width": 0,
+            "border_radius": 0,
+            "text_effect": "none",
+            "animation_repeat": false,
+            "padding-block-start": 0,
+            "padding-block-end": 16,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_standort_address": {
+          "type": "text",
+          "settings": {
+            "text": "<p>📍 <strong>LUDWIGSTRASSE 14, 90763 FÜRTH</strong><br/>SCHNAPPIX 24/7 Kiosk – rund um die Uhr für dich da.</p>",
+            "typing_text": false,
+            "width": "fill",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 800,
+            "inherit_text_alignment": false,
+            "alignment": "center",
+            "width_tablet": "fill",
+            "width_mobile": "fill",
+            "type_preset": "body",
+            "font": "var(--font-body--family)",
+            "font_size": "1.4rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "enable_border": false,
+            "enable_border_bottom": false,
+            "border": "none",
+            "border_width": 0,
+            "border_radius": 0,
+            "text_effect": "none",
+            "animation_repeat": false,
+            "padding-block-start": 0,
+            "padding-block-end": 20,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_standort_online": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SIE KÖNNEN AUCH IN UNSEREM ONLINE SHOP BESTELLEN</p>",
+            "typing_text": false,
+            "width": "fill",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 800,
+            "inherit_text_alignment": false,
+            "alignment": "center",
+            "width_tablet": "fill",
+            "width_mobile": "fill",
+            "type_preset": "body",
+            "font": "var(--font-body--family)",
+            "font_size": "1.2rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "enable_border": false,
+            "enable_border_bottom": false,
+            "border": "none",
+            "border_width": 0,
+            "border_radius": 0,
+            "text_effect": "none",
+            "animation_repeat": false,
+            "padding-block-start": 0,
+            "padding-block-end": 30,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "btn_standort_shop": {
+          "type": "button",
+          "settings": {
+            "label": "ZUM SHOP",
+            "link": "shopify://collections/all",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "button_style": "primary",
+            "button_border_width": 1,
+            "button_border_radius": 40,
+            "button_type_font": "var(--font-body--family)",
+            "button_type_size": "1.2rem",
+            "button_font_weight": "700",
+            "button_text_case": "uppercase",
+            "width": "fit-content",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 200,
+            "buttons_padding_vertical": 12,
+            "buttons_padding_horizontal": 30,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        },
+        "btn_standort_maps": {
+          "type": "button",
+          "settings": {
+            "label": "STANDORT AUF KARTE",
+            "link": "https://maps.google.com/?q=Ludwigstrasse+14,+90763+Fürth",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "button_style": "secondary",
+            "button_border_width": 1,
+            "button_border_radius": 40,
+            "button_type_font": "var(--font-body--family)",
+            "button_type_size": "1.2rem",
+            "button_font_weight": "700",
+            "button_text_case": "uppercase",
+            "width": "fit-content",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 200,
+            "buttons_padding_vertical": 12,
+            "buttons_padding_horizontal": 30,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_standort_heading",
+        "text_standort_address",
+        "text_standort_online",
+        "btn_standort_shop",
+        "btn_standort_maps"
+      ],
+      "name": "Standort SCHNAPPIX",
+      "settings": {
+        "content_direction": "column",
+        "content_direction_mobile": "column",
+        "wrap": "no-wrap",
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 30,
+        "section_width": "page-width",
+        "page_width_custom": 1170,
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-11",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "image_behavior": "none",
+        "padding-block-start": 80,
+        "padding-block-end": 80,
+        "padding-inline-start": 0,
+        "padding-inline-end": 0
+      }
+    },
+    "schnappix_partner_01": {
+      "type": "section",
+      "blocks": {
+        "text_partner_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Du hast eine Top-Location?</h2>",
+            "typing_text": false,
+            "width": "fill",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 800,
+            "inherit_text_alignment": false,
+            "alignment": "center",
+            "width_tablet": "fill",
+            "width_mobile": "fill",
+            "type_preset": "heading",
+            "font": "var(--font-body--family)",
+            "font_size": "2.4rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "#ffffff",
+            "background": false,
+            "background_color": "#00000026",
+            "enable_border": false,
+            "enable_border_bottom": false,
+            "border": "none",
+            "border_width": 0,
+            "border_radius": 0,
+            "text_effect": "none",
+            "animation_repeat": false,
+            "padding-block-start": 0,
+            "padding-block-end": 16,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_partner_desc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Wir suchen stark frequentierte Plätze – Innenstadt, Bahnhofsnähe, Uni-Umfeld. Vermiete deine Fläche an SCHNAPPIX 24/7 und profitiere von einem zuverlässigen Partner.</p>",
+            "typing_text": false,
+            "width": "fill",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 800,
+            "inherit_text_alignment": false,
+            "alignment": "center",
+            "width_tablet": "fill",
+            "width_mobile": "fill",
+            "type_preset": "body",
+            "font": "var(--font-body--family)",
+            "font_size": "1.3rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "#ffffff",
+            "background": false,
+            "background_color": "#00000026",
+            "enable_border": false,
+            "enable_border_bottom": false,
+            "border": "none",
+            "border_width": 0,
+            "border_radius": 0,
+            "text_effect": "none",
+            "animation_repeat": false,
+            "padding-block-start": 0,
+            "padding-block-end": 20,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "text_partner_bullets": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>✓ Attraktive Mieteinnahmen</li><li>✓ Kein Personalaufwand</li><li>✓ Aufwertung der Umgebung</li></ul>",
+            "typing_text": false,
+            "width": "fill",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 800,
+            "inherit_text_alignment": false,
+            "alignment": "center",
+            "width_tablet": "fill",
+            "width_mobile": "fill",
+            "type_preset": "body",
+            "font": "var(--font-body--family)",
+            "font_size": "1.3rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "none",
+            "wrap": "pretty",
+            "color": "#ffffff",
+            "background": false,
+            "background_color": "#00000026",
+            "enable_border": false,
+            "enable_border_bottom": false,
+            "border": "none",
+            "border_width": 0,
+            "border_radius": 0,
+            "text_effect": "none",
+            "animation_repeat": false,
+            "padding-block-start": 0,
+            "padding-block-end": 30,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "btn_partner_cta": {
+          "type": "button",
+          "settings": {
+            "label": "JETZT KONTAKT AUFNEHMEN",
+            "link": "shopify://pages/contact",
+            "open_in_new_tab": false,
+            "style_class": "button",
+            "button_style": "primary",
+            "button_border_width": 1,
+            "button_border_radius": 40,
+            "button_type_font": "var(--font-body--family)",
+            "button_type_size": "1.2rem",
+            "button_font_weight": "700",
+            "button_text_case": "uppercase",
+            "width": "fit-content",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 200,
+            "buttons_padding_vertical": 12,
+            "buttons_padding_horizontal": 30,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "text_partner_heading",
+        "text_partner_desc",
+        "text_partner_bullets",
+        "btn_partner_cta"
+      ],
+      "name": "Location Partner",
+      "settings": {
+        "content_direction": "column",
+        "content_direction_mobile": "column",
+        "wrap": "no-wrap",
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 30,
+        "section_width": "page-width",
+        "page_width_custom": 1170,
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-9",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "image_behavior": "none",
+        "padding-block-start": 80,
+        "padding-block-end": 80,
+        "padding-inline-start": 0,
+        "padding-inline-end": 0
+      }
+    },
+    "schnappix_faq_01": {
+      "type": "section",
+      "blocks": {
+        "text_faq_heading": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>YOU ASK, WE ANSWER!</h2>",
+            "typing_text": false,
+            "width": "fill",
+            "unit": "percent",
+            "custom_width": 100,
+            "custom_width_pixel": 800,
+            "inherit_text_alignment": false,
+            "alignment": "center",
+            "width_tablet": "fill",
+            "width_mobile": "fill",
+            "type_preset": "heading",
+            "font": "var(--font-body--family)",
+            "font_size": "2.4rem",
+            "line_height": "normal",
+            "letter_spacing": "normal",
+            "case": "uppercase",
+            "wrap": "pretty",
+            "color": "var(--color-foreground)",
+            "background": false,
+            "background_color": "#00000026",
+            "enable_border": false,
+            "enable_border_bottom": false,
+            "border": "none",
+            "border_width": 0,
+            "border_radius": 0,
+            "text_effect": "none",
+            "animation_repeat": false,
+            "padding-block-start": 0,
+            "padding-block-end": 40,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "accordion_faq_schnappix": {
+          "type": "accordion",
+          "settings": {
+            "layout_type": "grid",
+            "columns_grid": 1,
+            "columns_carousel": 1,
+            "mobile_columns_grid": "1",
+            "mobile_columns_carousel": "1",
+            "gap": 0,
+            "loop": false,
+            "navigation": "arrows",
+            "pagination_type": "bullets",
+            "width": "fill",
+            "custom_width": 100,
+            "width_mobile": "fill",
+            "custom_width_mobile": 100,
+            "height": "fit",
+            "custom_height": 100,
+            "inherit_color_scheme": true,
+            "background_media": "none",
+            "border": "solid",
+            "border_separator_items": true,
+            "border_width": 1,
+            "border_opacity": 30,
+            "border_radius": 8,
+            "toggle_overlay": false,
+            "overlay_color": "#00000026",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0,
+            "type_preset_heading": "paragraph",
+            "icon": "plus"
+          },
+          "blocks": {
+            "faq_row_1": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "WELCHE PRODUKTE GIBT ES?",
+                "open_by_default": true,
+                "inherit_color_scheme": false,
+                "margin-block-start-row": 0,
+                "margin-block-end-row": 10,
+                "padding-block-start": 15,
+                "padding-block-end": 15,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
+              },
+              "blocks": {
+                "text_faq_1": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Snacks, Getränke, Energy Drinks, Hygieneprodukte, Süßigkeiten und vieles mehr – alles 24/7 am Automaten und im Online-Shop verfügbar.</p>",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1.2rem",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_faq_1"
+              ]
+            },
+            "faq_row_2": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "WIE KANN ICH BEZAHLEN?",
+                "open_by_default": false,
+                "inherit_color_scheme": false,
+                "margin-block-start-row": 0,
+                "margin-block-end-row": 10,
+                "padding-block-start": 15,
+                "padding-block-end": 15,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
+              },
+              "blocks": {
+                "text_faq_2": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Am Automaten akzeptieren wir Kreditkarte, EC-Karte, Apple Pay und Google Pay. Im Online-Shop alle gängigen Zahlungsmethoden über Shopify Checkout.</p>",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1.2rem",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_faq_2"
+              ]
+            },
+            "faq_row_3": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "GIBT ES ALTERSPRÜFUNG?",
+                "open_by_default": false,
+                "inherit_color_scheme": false,
+                "margin-block-start-row": 0,
+                "margin-block-end-row": 10,
+                "padding-block-start": 15,
+                "padding-block-end": 15,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
+              },
+              "blocks": {
+                "text_faq_3": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Ja, für bestimmte Produkte wie Energydrinks (>15% Koffein) und Alkohol gilt eine automatische Alterskontrolle am Automaten.</p>",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1.2rem",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_faq_3"
+              ]
+            },
+            "faq_row_4": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "KANN ICH AUCH ONLINE BESTELLEN?",
+                "open_by_default": false,
+                "inherit_color_scheme": false,
+                "margin-block-start-row": 0,
+                "margin-block-end-row": 10,
+                "padding-block-start": 15,
+                "padding-block-end": 15,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
+              },
+              "blocks": {
+                "text_faq_4": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Ja! Besuche unseren Online-Shop auf shop.schnappix.com und bestelle bequem nach Hause. Versand schnell und zuverlässig.</p>",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1.2rem",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_faq_4"
+              ]
+            },
+            "faq_row_5": {
+              "type": "_accordion-row",
+              "settings": {
+                "heading": "WIE WERDEN STANDORTE AUSGEWÄHLT?",
+                "open_by_default": false,
+                "inherit_color_scheme": false,
+                "margin-block-start-row": 0,
+                "margin-block-end-row": 0,
+                "padding-block-start": 15,
+                "padding-block-end": 15,
+                "padding-inline-start": 20,
+                "padding-inline-end": 20
+              },
+              "blocks": {
+                "text_faq_5": {
+                  "type": "text",
+                  "settings": {
+                    "text": "<p>Wir wählen Orte mit hohem Fußverkehr: Innenstädte, Bahnhöfe, Universitäten und Wohngebiete. Interesse? Kontaktiere uns für eine Kooperation.</p>",
+                    "font": "var(--font-body--family)",
+                    "font_size": "1.2rem",
+                    "color": "var(--color-foreground)",
+                    "padding-block-start": 0,
+                    "padding-block-end": 20,
+                    "padding-inline-start": 0,
+                    "padding-inline-end": 0
+                  },
+                  "blocks": {}
+                }
+              },
+              "block_order": [
+                "text_faq_5"
+              ]
+            }
+          },
+          "block_order": [
+            "faq_row_1",
+            "faq_row_2",
+            "faq_row_3",
+            "faq_row_4",
+            "faq_row_5"
+          ]
+        }
+      },
+      "block_order": [
+        "text_faq_heading",
+        "accordion_faq_schnappix"
+      ],
+      "name": "FAQ SCHNAPPIX",
+      "settings": {
+        "content_direction": "column",
+        "content_direction_mobile": "column",
+        "wrap": "no-wrap",
+        "horizontal_alignment": "flex-start",
+        "vertical_alignment": "center",
+        "align_baseline": false,
+        "horizontal_alignment_flex_direction_column": "center",
+        "vertical_alignment_flex_direction_column": "center",
+        "gap": 30,
+        "section_width": "page-width",
+        "page_width_custom": 1170,
+        "section_height": "",
+        "section_height_custom": 50,
+        "color_scheme": "scheme-10",
+        "background_media": "none",
+        "video_position": "cover",
+        "background_image_position": "cover",
+        "border": "none",
+        "border_width": 1,
+        "border_radius": 0,
+        "toggle_overlay": false,
+        "overlay_color": "#00000026",
+        "overlay_style": "solid",
+        "gradient_direction": "to top",
+        "image_behavior": "none",
+        "padding-block-start": 80,
+        "padding-block-end": 80,
+        "padding-inline-start": 0,
+        "padding-inline-end": 0
+      }
     }
   },
   "order": [
@@ -9223,6 +9894,9 @@
     "lookbook_q8nVmX",
     "collection_list_jUH9xq",
     "section_XMawhC",
+    "schnappix_standort_01",
+    "schnappix_partner_01",
+    "schnappix_faq_01",
     "section_WzKJeK",
     "marquee_cbrgCX",
     "media_gallery_d6yh4R",
