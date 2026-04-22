@@ -1536,7 +1536,7 @@
                   "type": "text",
                   "name": "t:names.text",
                   "settings": {
-                    "text": "<p>© 2025, <a href=\"https://new-ella-demo-07.myshopify.com/\" title=\"https://new-ella-demo-07.myshopify.com/\"><span style=\"text-decoration:underline\">Ella 7</span></a>. <a href=\"https://www.shopify.com/?utm_campaign=poweredby&utm_medium=shopify&utm_source=onlinestore\" target=\"_blank\">Powered by Shopify</a>. SHOPIFY THEMES BY <a href=\"https://halothemes.net/\" title=\"https://halothemes.net/\">HALOTHEMES</a>.</p>",
+                    "text": "<p>© 2025, <a href=\"https://www.schnappix.com\" target=\"_blank\" title=\"https://www.schnappix.com\">Schnappix</a></p>",
                     "collection_description_only": false,
                     "collapse_text": false,
                     "typing_text": false,
@@ -1549,7 +1549,7 @@
                     "underline_width": 100,
                     "underline_height": 18,
                     "underline_offset": 20,
-                    "highlight_text_color": "#000000",
+                    "highlight_text_color": "#4aa9c4",
                     "highlight_underline_color": "#000000",
                     "spacing_text": false,
                     "spacing_text_content": "",
