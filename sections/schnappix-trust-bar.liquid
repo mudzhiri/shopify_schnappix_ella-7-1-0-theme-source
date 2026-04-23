@@ -1,0 +1,119 @@
+{% capture children %}
+  <div class="sx-trust">
+    <div class="sx-trust__inner">
+      {% for i in (1..4) %}
+        {% capture icon_key %}item_{{ i }}_icon{% endcapture %}
+        {% capture title_key %}item_{{ i }}_title{% endcapture %}
+        {% capture text_key %}item_{{ i }}_text{% endcapture %}
+
+        {% assign icon = section.settings[icon_key] %}
+        {% assign title = section.settings[title_key] %}
+        {% assign text = section.settings[text_key] %}
+
+        {% if title != blank %}
+          <div class="sx-trust__card">
+            <div class="sx-trust__icon" aria-hidden="true">{{ icon }}</div>
+            <div class="sx-trust__copy">
+              <p class="sx-trust__title">{{ title }}</p>
+              {% if text != blank %}
+                <p class="sx-trust__text">{{ text }}</p>
+              {% endif %}
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+
+  <style>
+    .sx-trust { width: 100%; }
+    .sx-trust__inner{
+      width: min(1170px, 100%);
+      margin-inline: auto;
+      display: grid;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      gap: 14px;
+    }
+    @media (max-width: 989px){
+      .sx-trust__inner{ grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    }
+    .sx-trust__card{
+      border: 2px solid rgba(0,0,0,.12);
+      border-radius: 16px;
+      padding: 16px 14px;
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 12px;
+      background: rgba(255,255,255,.45);
+      backdrop-filter: blur(6px);
+      align-items: start;
+      min-height: 92px;
+    }
+    .sx-trust__icon{
+      width: 44px; height: 44px;
+      border-radius: 14px;
+      display: grid; place-items: center;
+      font-size: 22px;
+      border: 2px solid rgba(0,0,0,.10);
+      background: rgba(255,255,255,.55);
+    }
+    .sx-trust__title{
+      margin: 0;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .10em;
+      font-size: .9rem;
+      line-height: 1.2;
+    }
+    .sx-trust__text{
+      margin: 6px 0 0;
+      opacity: .92;
+      line-height: 1.25;
+      font-weight: 600;
+      font-size: .95rem;
+    }
+  </style>
+{% endcapture %}
+
+{% render 'section', section: section, children: children %}
+
+{% schema %}
+{
+  "name": "Schnappix Trust Bar",
+  "class": "section-wrapper",
+  "disabled_on": { "groups": ["header", "custom.popup", "aside"] },
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-11" },
+    { "type": "select", "id": "section_width", "label": "Section width", "options": [
+      { "value": "page-width", "label": "Page" },
+      { "value": "full-width", "label": "Full" }
+    ], "default": "page-width" },
+    { "type": "range", "id": "padding-block-start", "min": 0, "max": 120, "step": 1, "unit": "px", "label": "Padding top", "default": 40 },
+    { "type": "range", "id": "padding-block-end", "min": 0, "max": 120, "step": 1, "unit": "px", "label": "Padding bottom", "default": 40 },
+
+    { "type": "header", "content": "Item 1" },
+    { "type": "text", "id": "item_1_icon", "label": "Icon", "default": "💳" },
+    { "type": "text", "id": "item_1_title", "label": "Title", "default": "Sicher bezahlen" },
+    { "type": "text", "id": "item_1_text", "label": "Text", "default": "Shopify Checkout, Apple Pay & Karten" },
+
+    { "type": "header", "content": "Item 2" },
+    { "type": "text", "id": "item_2_icon", "label": "Icon", "default": "📦" },
+    { "type": "text", "id": "item_2_title", "label": "Title", "default": "Schneller Versand" },
+    { "type": "text", "id": "item_2_text", "label": "Text", "default": "Direkt aus Lagerbestand" },
+
+    { "type": "header", "content": "Item 3" },
+    { "type": "text", "id": "item_3_icon", "label": "Icon", "default": "🏪" },
+    { "type": "text", "id": "item_3_title", "label": "Title", "default": "24/7 Standort" },
+    { "type": "text", "id": "item_3_text", "label": "Text", "default": "Ludwigstrasse 14, 90763 Fürth" },
+
+    { "type": "header", "content": "Item 4" },
+    { "type": "text", "id": "item_4_icon", "label": "Icon", "default": "🛟" },
+    { "type": "text", "id": "item_4_title", "label": "Title", "default": "Support" },
+    { "type": "text", "id": "item_4_text", "label": "Text", "default": "Fragen? Schreib uns – wir helfen." }
+  ],
+  "presets": [
+    { "name": "Schnappix Trust Bar", "category": "Storytelling" }
+  ]
+}
+{% endschema %}
+

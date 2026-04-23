@@ -14470,6 +14470,74 @@
         "tile_image_url_3": "https://cdn.prod.website-files.com/6974d29d4ac837916a9d97bc/69e62daab4e3901b69f03931_Corona%20Extra%200%2C33L.png",
         "tile_image_alt_3": "Corona"
       }
+    },
+    "schnappix_trust_bar_01": {
+      "type": "schnappix-trust-bar",
+      "settings": {
+        "color_scheme": "scheme-11",
+        "section_width": "page-width",
+        "padding-block-start": 40,
+        "padding-block-end": 30,
+        "item_1_icon": "💳",
+        "item_1_title": "Sicher bezahlen",
+        "item_1_text": "Shopify Checkout, Apple Pay & Karten",
+        "item_2_icon": "📦",
+        "item_2_title": "Schneller Versand",
+        "item_2_text": "Direkt aus Lagerbestand",
+        "item_3_icon": "🏪",
+        "item_3_title": "24/7 Standort",
+        "item_3_text": "Ludwigstrasse 14, 90763 Fürth",
+        "item_4_icon": "🛟",
+        "item_4_title": "Support",
+        "item_4_text": "Fragen? Schreib uns – wir helfen."
+      }
+    },
+    "schnappix_delivery_01": {
+      "type": "schnappix-delivery",
+      "settings": {
+        "color_scheme": "scheme-11",
+        "section_width": "page-width",
+        "padding-block-start": 70,
+        "padding-block-end": 70,
+        "kicker": "Versand aus Lagerbestand",
+        "heading": "Heute bestellt. Schnell bei dir.",
+        "text": "<p>Du willst die Produkte aus unserem 24/7 Automaten‑Sortiment bequem nach Hause? Bestell online – wir versenden direkt aus unserem Lager.</p>",
+        "step_1_title": "Warenkorb füllen",
+        "step_1_text": "Snacks, Getränke, Energy & Essentials auswählen.",
+        "step_2_title": "Sicher bezahlen",
+        "step_2_text": "Über Shopify Checkout – schnell & zuverlässig.",
+        "step_3_title": "Lieferung erhalten",
+        "step_3_text": "Direkt aus Lagerbestand versendet – ohne Umwege.",
+        "cta_label": "Zum Shop",
+        "cta_link": "shopify://collections/all",
+        "secondary_label": "Fragen? Kontakt",
+        "secondary_link": "shopify://pages/contact",
+        "image_url": "https://cdn.prod.website-files.com/6974d29d4ac837916a9d97bc/69e62daab4e3901b69f03931_Corona%20Extra%200%2C33L.png",
+        "image_alt": "Schnappix Versand",
+        "badge_title": "Tipp",
+        "badge_text": "Hol’s dir direkt am Standort: Ludwigstrasse 14, 90763 Fürth (24/7)."
+      }
+    },
+    "schnappix_newsletter_perk_01": {
+      "type": "schnappix-newsletter-perk",
+      "settings": {
+        "color_scheme": "scheme-10",
+        "section_width": "page-width",
+        "padding-block-start": 70,
+        "padding-block-end": 70,
+        "kicker": "Deals & Drops",
+        "heading": "Hol dir Angebote zuerst.",
+        "text": "<p>Neue Produkte, Restocks und Aktionen – direkt in dein Postfach. Kurz, selten, relevant.</p>",
+        "bullet_1": "Exklusive Drops aus Lagerbestand",
+        "bullet_2": "Aktionen & Bundle-Deals (Snacks + Drinks)",
+        "bullet_3": "Standort-News: Ludwigstrasse 14, Fürth",
+        "input_label": "E-Mail",
+        "input_placeholder": "deine@email.de",
+        "button_label": "Absenden",
+        "success_text": "Danke! Bitte bestätige ggf. die E-Mail in deinem Postfach.",
+        "perk_title": "Willkommens‑Vorteil",
+        "perk_text": "Erhalte als Erstes Infos zu neuen Produkten und zeitlich limitierten Deals."
+      }
     }
   },
   "order": [
@@ -14477,6 +14545,9 @@
     "schnappix_ticker_02",
     "schnappix_brand_hero_02",
     "schnappix_b2c_landing_01",
+    "schnappix_trust_bar_01",
+    "schnappix_delivery_01",
+    "schnappix_newsletter_perk_01",
     "schnappix_how_works_02",
     "schnappix_stats_02",
     "schnappix_popular_02",

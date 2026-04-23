@@ -1,0 +1,179 @@
+{% capture children %}
+  <div class="sx-delivery">
+    <div class="sx-delivery__grid">
+      <div class="sx-delivery__copy">
+        <p class="sx-delivery__kicker">{{ section.settings.kicker }}</p>
+        <h2 class="sx-delivery__heading">{{ section.settings.heading }}</h2>
+        <div class="sx-delivery__text rte">{{ section.settings.text }}</div>
+
+        <div class="sx-delivery__steps">
+          <div class="sx-delivery__step">
+            <div class="sx-delivery__num">01</div>
+            <div>
+              <p class="sx-delivery__step-title">{{ section.settings.step_1_title }}</p>
+              <p class="sx-delivery__step-text">{{ section.settings.step_1_text }}</p>
+            </div>
+          </div>
+          <div class="sx-delivery__step">
+            <div class="sx-delivery__num">02</div>
+            <div>
+              <p class="sx-delivery__step-title">{{ section.settings.step_2_title }}</p>
+              <p class="sx-delivery__step-text">{{ section.settings.step_2_text }}</p>
+            </div>
+          </div>
+          <div class="sx-delivery__step">
+            <div class="sx-delivery__num">03</div>
+            <div>
+              <p class="sx-delivery__step-title">{{ section.settings.step_3_title }}</p>
+              <p class="sx-delivery__step-text">{{ section.settings.step_3_text }}</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="sx-delivery__cta">
+          {% if section.settings.cta_label != blank %}
+            <a class="button button--primary" href="{{ section.settings.cta_link }}">{{ section.settings.cta_label }}</a>
+          {% endif %}
+          {% if section.settings.secondary_label != blank %}
+            <a class="button button--secondary" href="{{ section.settings.secondary_link }}">{{ section.settings.secondary_label }}</a>
+          {% endif %}
+        </div>
+      </div>
+
+      <div class="sx-delivery__media">
+        {% if section.settings.image != blank %}
+          <div class="sx-delivery__image">
+            {{ section.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 520px, 90vw', widths: '480,640,800,1000,1200,1400', alt: section.settings.image_alt | escape }}
+          </div>
+        {% elsif section.settings.image_url != blank %}
+          <div class="sx-delivery__image">
+            <img src="{{ section.settings.image_url }}" alt="{{ section.settings.image_alt | escape }}" loading="lazy">
+          </div>
+        {% endif %}
+
+        <div class="sx-delivery__badge">
+          <p class="sx-delivery__badge-title">{{ section.settings.badge_title }}</p>
+          <p class="sx-delivery__badge-text">{{ section.settings.badge_text }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    .sx-delivery__grid{
+      width: min(1170px, 100%);
+      margin-inline: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: clamp(18px, 4vw, 56px);
+      align-items: start;
+    }
+    @media (max-width: 989px){
+      .sx-delivery__grid{ grid-template-columns: 1fr; }
+    }
+    .sx-delivery__kicker{
+      margin: 0 0 10px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .14em;
+      opacity: .85;
+      font-size: .92rem;
+    }
+    .sx-delivery__heading{
+      margin: 0 0 14px;
+      line-height: 1.05;
+      text-transform: uppercase;
+      font-size: clamp(28px, 3.3vw, 46px);
+    }
+    .sx-delivery__text{ font-size: 1.1rem; }
+
+    .sx-delivery__steps{ margin-top: 18px; display: grid; gap: 12px; }
+    .sx-delivery__step{
+      display: grid;
+      grid-template-columns: 44px 1fr;
+      gap: 12px;
+      padding: 14px 14px;
+      border-radius: 16px;
+      border: 2px solid rgba(0,0,0,.12);
+      background: rgba(255,255,255,.40);
+      backdrop-filter: blur(6px);
+    }
+    .sx-delivery__num{
+      width: 44px; height: 44px;
+      border-radius: 14px;
+      display: grid; place-items: center;
+      font-weight: 900;
+      border: 2px solid rgba(0,0,0,.10);
+      background: rgba(255,255,255,.55);
+    }
+    .sx-delivery__step-title{ margin: 0; font-weight: 900; text-transform: uppercase; letter-spacing: .10em; font-size: .92rem; }
+    .sx-delivery__step-text{ margin: 6px 0 0; font-weight: 600; opacity: .92; line-height: 1.25; }
+
+    .sx-delivery__cta{ display: flex; flex-wrap: wrap; gap: 12px; margin-top: 22px; }
+    .sx-delivery__image img{
+      width: 100%; height: auto; display: block;
+      border-radius: 18px;
+      border: 2px solid rgba(0,0,0,.12);
+      background: rgba(255,255,255,.35);
+    }
+    .sx-delivery__media{ position: sticky; top: 16px; }
+    @media (max-width: 989px){ .sx-delivery__media{ position: static; } }
+    .sx-delivery__badge{
+      margin-top: 14px;
+      border-radius: 18px;
+      border: 2px solid rgba(0,0,0,.12);
+      background: rgba(255,255,255,.45);
+      backdrop-filter: blur(6px);
+      padding: 16px 16px;
+    }
+    .sx-delivery__badge-title{ margin: 0; font-weight: 900; text-transform: uppercase; letter-spacing: .10em; font-size: .92rem; }
+    .sx-delivery__badge-text{ margin: 8px 0 0; font-weight: 650; opacity: .92; }
+  </style>
+{% endcapture %}
+
+{% render 'section', section: section, children: children %}
+
+{% schema %}
+{
+  "name": "Schnappix Delivery",
+  "class": "section-wrapper",
+  "disabled_on": { "groups": ["header", "custom.popup", "aside"] },
+  "settings": [
+    { "type": "color_scheme", "id": "color_scheme", "label": "Color scheme", "default": "scheme-11" },
+    { "type": "select", "id": "section_width", "label": "Section width", "options": [
+      { "value": "page-width", "label": "Page" },
+      { "value": "full-width", "label": "Full" }
+    ], "default": "page-width" },
+    { "type": "range", "id": "padding-block-start", "min": 0, "max": 120, "step": 1, "unit": "px", "label": "Padding top", "default": 70 },
+    { "type": "range", "id": "padding-block-end", "min": 0, "max": 120, "step": 1, "unit": "px", "label": "Padding bottom", "default": 70 },
+
+    { "type": "text", "id": "kicker", "label": "Kicker", "default": "Versand aus Lagerbestand" },
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Heute bestellt. Schnell bei dir." },
+    { "type": "richtext", "id": "text", "label": "Text", "default": "<p>Du willst die Produkte aus unserem 24/7 Automaten‑Sortiment bequem nach Hause? Bestell online – wir versenden direkt aus unserem Lager.</p>" },
+
+    { "type": "text", "id": "step_1_title", "label": "Step 1 title", "default": "Warenkorb füllen" },
+    { "type": "text", "id": "step_1_text", "label": "Step 1 text", "default": "Snacks, Getränke, Energy & Essentials auswählen." },
+    { "type": "text", "id": "step_2_title", "label": "Step 2 title", "default": "Sicher bezahlen" },
+    { "type": "text", "id": "step_2_text", "label": "Step 2 text", "default": "Über Shopify Checkout – schnell & zuverlässig." },
+    { "type": "text", "id": "step_3_title", "label": "Step 3 title", "default": "Lieferung erhalten" },
+    { "type": "text", "id": "step_3_text", "label": "Step 3 text", "default": "Direkt aus Lagerbestand versendet – ohne Umwege." },
+
+    { "type": "text", "id": "cta_label", "label": "CTA label", "default": "Zum Shop" },
+    { "type": "url", "id": "cta_link", "label": "CTA link", "default": "shopify://collections/all" },
+    { "type": "text", "id": "secondary_label", "label": "Secondary label", "default": "Fragen? Kontakt" },
+    { "type": "url", "id": "secondary_link", "label": "Secondary link", "default": "shopify://pages/contact" },
+
+    { "type": "header", "content": "Image" },
+    { "type": "image_picker", "id": "image", "label": "Image (uploaded)" },
+    { "type": "url", "id": "image_url", "label": "Image URL (optional)" },
+    { "type": "text", "id": "image_alt", "label": "Image alt", "default": "Schnappix Versand" },
+
+    { "type": "text", "id": "badge_title", "label": "Badge title", "default": "Tipp" },
+    { "type": "text", "id": "badge_text", "label": "Badge text", "default": "Hol’s dir direkt am Standort: Ludwigstrasse 14, 90763 Fürth (24/7)." }
+  ],
+  "presets": [
+    { "name": "Schnappix Delivery", "category": "Storytelling" }
+  ]
+}
+{% endschema %}
+
