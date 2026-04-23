@@ -60,7 +60,7 @@
           </div>
         {% elsif section.settings.hero_image_url != blank %}
           <div class="schnappix-b2c__heroimg">
-            <img src="{{ section.settings.hero_image_url }}" alt="{{ section.settings.hero_image_alt | escape }}" loading="lazy">
+            <img src="{{ section.settings.hero_image_url }}" alt="{{ section.settings.hero_image_alt | escape }}" loading="lazy" width="1200" height="1200">
           </div>
         {% endif %}
 
@@ -78,7 +78,7 @@
                 {% if tile_img != blank %}
                   {{ tile_img | image_url: width: 700 | image_tag: loading: 'lazy', sizes: '(min-width: 990px) 160px, 40vw', widths: '220,320,480,640,700', alt: tile_alt | escape }}
                 {% else %}
-                  <img src="{{ tile_url }}" alt="{{ tile_alt | escape }}" loading="lazy">
+                  <img src="{{ tile_url }}" alt="{{ tile_alt | escape }}" loading="lazy" width="700" height="700">
                 {% endif %}
               </div>
             {% endif %}
