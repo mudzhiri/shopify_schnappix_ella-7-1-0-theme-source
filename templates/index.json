@@ -14483,7 +14483,7 @@
         "item_1_text": "Shopify Checkout, Apple Pay & Karten",
         "item_2_icon": "📦",
         "item_2_title": "Schneller Versand",
-        "item_2_text": "Direkt aus Lagerbestand",
+        "item_2_text": "2–3 Tage • ab 50€ kostenlos, sonst 3€",
         "item_3_icon": "🏪",
         "item_3_title": "24/7 Standort",
         "item_3_text": "Ludwigstrasse 14, 90763 Fürth",
@@ -14507,7 +14507,7 @@
         "step_2_title": "Sicher bezahlen",
         "step_2_text": "Über Shopify Checkout – schnell & zuverlässig.",
         "step_3_title": "Lieferung erhalten",
-        "step_3_text": "Direkt aus Lagerbestand versendet – ohne Umwege.",
+        "step_3_text": "Lieferzeit 2–3 Tage. Versand ab 50€ kostenlos, sonst 3€.",
         "cta_label": "Zum Shop",
         "cta_link": "shopify://collections/all",
         "secondary_label": "Fragen? Kontakt",
@@ -14515,7 +14515,7 @@
         "image_url": "https://cdn.prod.website-files.com/6974d29d4ac837916a9d97bc/69e62daab4e3901b69f03931_Corona%20Extra%200%2C33L.png",
         "image_alt": "Schnappix Versand",
         "badge_title": "Tipp",
-        "badge_text": "Hol’s dir direkt am Standort: Ludwigstrasse 14, 90763 Fürth (24/7)."
+        "badge_text": "Abholung ist möglich: du bekommst eine E‑Mail, sobald alles bereit liegt."
       }
     },
     "schnappix_newsletter_perk_01": {
