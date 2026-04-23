@@ -14440,12 +14440,43 @@
         "padding-inline-start": 0,
         "padding-inline-end": 0
       }
+    },
+    "schnappix_b2c_landing_01": {
+      "type": "schnappix-b2c-landing",
+      "settings": {
+        "color_scheme": "scheme-10",
+        "section_width": "page-width",
+        "padding-block-start": 60,
+        "padding-block-end": 60,
+        "kicker": "24/7 Kiosk Fürth",
+        "heading": "SCHNAPPIX – Dein 24/7 Shop",
+        "subheading": "<p>Wir verkaufen die Produkte aus unserem Lager direkt an Endkunden – schnell, unkompliziert und 24/7 inspiriert vom Automaten in Fürth.</p>",
+        "usp_1": "Schnell bestellen – unkompliziert geliefert",
+        "usp_2": "Beliebte Snacks & Getränke wie im Automaten",
+        "usp_3": "Standort: Ludwigstrasse 14, 90763 Fürth",
+        "primary_cta_label": "Zum Sortiment",
+        "primary_cta_link": "shopify://collections/all",
+        "secondary_cta_label": "Standort ansehen",
+        "secondary_cta_link": "shopify://pages/store-locator",
+        "address_line_1": "Ludwigstrasse 14",
+        "address_line_2": "90763 Fürth",
+        "maps_link": "https://maps.google.com/?q=Ludwigstrasse+14,+90763+Fürth",
+        "hero_image_url": "https://cdn.prod.website-files.com/6974d29d4ac837916a9d97bc/697b2d63e6b3a366eb8c30d9_coca_cola.svg",
+        "hero_image_alt": "Schnappix Sortiment",
+        "tile_image_url_1": "https://cdn.prod.website-files.com/6974d29d4ac837916a9d97bc/69e6253f7f2e0db7c08f17b1_SALITOS%20Original%200%2C33%20l.png",
+        "tile_image_alt_1": "Salitos",
+        "tile_image_url_2": "https://cdn.prod.website-files.com/6974d29b4ac837916a9d972f/69e5d12b23f6c2b062bfae1e_reb%20bull%20green.png",
+        "tile_image_alt_2": "Red Bull",
+        "tile_image_url_3": "https://cdn.prod.website-files.com/6974d29d4ac837916a9d97bc/69e62daab4e3901b69f03931_Corona%20Extra%200%2C33L.png",
+        "tile_image_alt_3": "Corona"
+      }
     }
   },
   "order": [
     "slideshow_tyrRgz",
     "schnappix_ticker_02",
     "schnappix_brand_hero_02",
+    "schnappix_b2c_landing_01",
     "schnappix_how_works_02",
     "schnappix_stats_02",
     "schnappix_popular_02",
